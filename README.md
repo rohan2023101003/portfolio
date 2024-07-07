@@ -1,8 +1,4 @@
-Got it! Here’s the `README.md` file formatted in Markdown as you requested:
 
-### `README.md`
-
-```markdown
 # Portfolio
 
 This is the repository for my personal portfolio website.
@@ -18,7 +14,6 @@ This portfolio showcases my skills, projects, and contact information. It is bui
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [License](#license)
 
 ## Features
 
@@ -85,41 +80,14 @@ To deploy this portfolio, you can use platforms like Render, Heroku, or Vercel. 
 For example, on Render:
 
 1. **Create a new web service** and link it to this GitHub repository.
-2. **Set up environment variables** on the Render dashboard:
+2. Build command : npm install
+3. Start Command : npm start
+4. **Set up environment variables** on the Render dashboard:
    - `EMAIL_USER` = `your-email@gmail.com`
    - `EMAIL_PASS` = `your-email-password-or-app-password`
    - `PORT` = `3000`
-3. **Deploy your service.**
-
-## License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+5. **Deploy your service.**
 
 ## Contact
 
 For any inquiries or feedback, you can reach me at [rohankumar992p@gmail.com](mailto:rohankumar992p@gmail.com).
-```
-
-You can copy and paste this Markdown content into your `README.md` file. 
-
-### To Create `README.md`
-
-1. **Create a new file named `README.md`** in your project directory:
-
-   ```bash
-   touch README.md
-   ```
-
-2. **Open `README.md`** in a text editor and paste the Markdown content above.
-
-3. **Save the file**.
-
-4. **Add and commit** the `README.md` to your Git repository:
-
-   ```bash
-   git add README.md
-   git commit -m "Add README.md with setup and deployment instructions"
-   git push origin main
-   ```
-
-This Markdown content provides a comprehensive overview of your portfolio project, including setup instructions, usage, and deployment information.
