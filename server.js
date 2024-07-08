@@ -27,7 +27,7 @@ app.post('/send-email', async (req, res) => {
         from: email,
         to: process.env.EMAIL,
         subject: `New message from ${name}`,
-        text: message
+        text: `You have received a new message from ${name} (${email}):\n\n${message}`
     };
 
     try {
